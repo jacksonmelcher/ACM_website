@@ -1,6 +1,6 @@
 /* // - - - - - - - - - Variables - - - - - - - - - // */
 $white: #FFFFFF;
-$highlight: #7ac483;
+$highlight: #4f617c;
 $grey_background: #f2f1f8;
 $grey_copy: #b9b7c6;
 $dark_grey: #3f3d4e;
@@ -56,7 +56,7 @@ body {
 
 /* // - - - - - - - - - Banner Styles - - - - - - - - - // */
 #banner {
-	background-image: url(../images/banner_background.jpg);
+	background-image: url(../images/Banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -66,7 +66,7 @@ body {
 	#logo {
 		color: $white;
 		font-weight: 900;
-		font-size: 1.55rem;
+		font-size: 2rem;
 		float: left;
 		margin: 0;
 		
@@ -87,13 +87,13 @@ body {
 	}
 
 	.content {
-		padding: 8rem 0 8rem 0;
+		padding: 15rem 0 20rem 0;
 		.title, .sub_title {
 			color: $white;
 			text-align: center;
 		}
 		.title {
-			font-size: 3.5rem;
+			font-size: 4rem;
 			margin: 0;
 		}
 		.sub_title {
@@ -144,14 +144,7 @@ body {
 		.button {
 			padding: 0.5rem 2rem;
 		}
-		&:after {
-			content: " ";
-			position: absolute;
-			left: 50%;
-			bottom: -50px;
-			height: 50px;
-			border-left: 2px solid #000;
-		}
+		
 	}
 	.middle {
 		&:after {

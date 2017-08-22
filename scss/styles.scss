@@ -56,7 +56,17 @@ body {
 
 .img-circle {
 	border-radius: 50%;
-	
+}
+
+.small {
+	height: 400px;
+	width: 400px;
+
+}
+
+.title {
+	font-size: 4rem;
+	margin: 0 0 .75rem 0;
 }
 
 /* // - - - - - - - - - Banner Styles - - - - - - - - - // */
@@ -97,10 +107,7 @@ body {
 			color: $white;
 			text-align: center;
 		}
-		.title {
-			font-size: 4rem;
-			margin: 0;
-		}
+		
 		.sub_title {
 			font-weight: 700;
 			font-size: 1.35rem;
@@ -172,14 +179,13 @@ body {
 
 #officers {
 	background: $dark_grey;
-	padding: 5rem 0 25rem 0;
+	padding: 5rem 0 0 0;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
 
 	.title {
 		color: $white;
-		font-size: 3.5rem;
 		margin: 0 0 .75rem 0;
 	}
 
@@ -192,5 +198,32 @@ body {
 		list-style: none;
 		display: flex;
 		flex-wrap: wrap;
+	}
+}
+
+/* // - - - - - - - - - Sponsors - - - - - - - - - // */
+#sponsors {
+	background: $white;
+	padding: 2rem 0 6.5rem 0;
+	position: relative;
+	text-align: center;
+
+	.title {
+		font-weight: 700;
+	}
+
+
+}
+
+/* // - - - - - - - - - Events - - - - - - - - - // */
+#events {
+	background: #959799;
+	padding: 2rem 0 6.5rem 0;
+	text-align: center;
+	position: relative;
+
+	.title {
+		color: $white;
+		font-size: 3.5rem;
 	}
 }

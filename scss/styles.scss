@@ -56,6 +56,7 @@ body {
 
 .img-circle {
 	border-radius: 50%;
+	
 }
 
 /* // - - - - - - - - - Banner Styles - - - - - - - - - // */
@@ -189,6 +190,7 @@ body {
 
 	#officer_pics {
 		list-style: none;
-
+		display: flex;
+		flex-wrap: wrap;
 	}
 }

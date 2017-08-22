@@ -138,11 +138,11 @@ body {
     color: #FFFFFF;
     font-size: 1.5rem; }
   #officers #officer_pics {
-    list-style: none; }
-    #officers #officer_pics li {
-      width: 1350px;
-      overflow: hidden;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center; }
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
